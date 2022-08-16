@@ -1,0 +1,29 @@
+{
+    "name": "ruhul/bog-laravel",
+    "description": "BlueOceanGaming Seamless integration API library package for laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ruhul\\BOGaming\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ruhul Ameen",
+            "email": "ruhulameen788@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ruhul\\BOGaming\\BlueOceanGamingServiceProvider"
+            ],
+            "aliases": {
+                "BlueOceanGaming": "Ruhul\\BOGaming\\Facades\\BlueOceanGaming"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
