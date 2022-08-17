@@ -49,7 +49,7 @@ return BlueOceanGaming::getGame([
 #For staging BOG_SANDBOX=true, for production BOG_SANDBOX=false
 BOG_SANDBOX=true
 BOG_PASSWORD="blueoceanaming API password"
-BOG_PASSWORD="blueoceanaming API login"
+BOG_USERNAME="blueoceanaming API login"
 ````
 
 
