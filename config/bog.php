@@ -22,7 +22,6 @@ return [
     | There are two options: staging and production (default)
     | You can change this value in config/blueoceangaming.php
     | Stage: https://stage.game-program.com/api/seamless/provider
-    | Production: https://api.thegameprovider.com/api/seamless/provider
     */
 
     'api_endpoint' => env('BOG_ENDPOINT', 'https://stage.game-program.com/api/seamless/provider'),
