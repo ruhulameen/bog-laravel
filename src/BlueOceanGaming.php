@@ -27,7 +27,7 @@ class BlueOceanGaming
      */
     private function __initialize()
     {
-        $this->BASE_URL = config('blueoceangaming.sandbox') ? config('blueoceangaming.api_endpoint.staging') : config('blueoceangaming.api_endpoint.production');
+        $this->BASE_URL = config('blueoceangaming.api_endpoint');
         $this->API_PASSWORD = config('blueoceangaming.api_password');
         $this->API_LOGIN = config('blueoceangaming.api_login');
     }

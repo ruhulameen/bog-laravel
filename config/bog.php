@@ -25,10 +25,7 @@ return [
     | Production: https://api.thegameprovider.com/api/seamless/provider
     */
 
-    'api_endpoint' => [
-        'staging' => env('BOG_ENDPOINT', 'https://stage.game-program.com/api/seamless/provider'),
-        'production' => env('BOG_ENDPOINT', 'https://api.thegameprovider.com/api/seamless/provider'),
-    ],
+    'api_endpoint' => env('BOG_ENDPOINT', 'https://stage.game-program.com/api/seamless/provider'),
 
 
     /*
