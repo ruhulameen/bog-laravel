@@ -50,4 +50,17 @@ return [
     */
 
     'api_login' =>  env('BOG_USERNAME', null),
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Callback Salt Key
+    |--------------------------------------------------------------------------
+    |
+    | BlueOceanGaming Callback Salt Key
+    | You can change this value in config/blueoceangaming.php
+    |
+    */
+
+    'salt_key' =>  env('BOG_SALT_KEY', null),
 ];
